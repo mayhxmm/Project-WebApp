@@ -12,15 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*
-Route::get('/', function () {
-    return view('welcome');
-}); */
+
 
 //Redirect to Welcome page 
-//Route::get('/', [App\Http\Controllers\WelcomeController::class, 'list'])->name('welcome');
-
-//Route::get('/', [App\Http\Controllers\WelcomeController::class, 'list'])->name('welcome');
 Route::get('/', function () {
     return view('welcome'); });
 
