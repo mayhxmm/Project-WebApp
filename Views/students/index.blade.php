@@ -32,7 +32,7 @@
         <tr>
             <td>{{++$count}}</td>
             <td>{{$student->matric_no}}</td>
-            <td><a href="{{ route('students.show',$student->id)}}">{{$student->first_name}} {{$student->last_name}}</a></td>
+            <td>{{$student->first_name}} {{$student->last_name}}</td>
             <td>{{$student->offence}}</td>
             <td>{{$student->price}}</td>
             <td class="text-center">
