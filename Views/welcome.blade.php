@@ -1,16 +1,16 @@
-
-
 @extends('layouts.app')
 
 @section('content')
 
-    <h1>Welcome to IIUM Student Compound System</h1>
-    <p>Date: {{ date('d-m-Y') }} </p>
-    <p>Time: <span id="datetime"></span></p>
+<div style="text-align:center" >
+<h1>Welcome to</br>IIUM Student Compound Management System</h1>
+    {{ date('d-m-Y') }} | <span id="datetime"></span>
     <script>
     var dt = new Date();
     document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
     </script>
+</div> 
 
 @endsection
-    
+
+
