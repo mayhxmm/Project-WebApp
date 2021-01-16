@@ -5,7 +5,7 @@
 <div class="row">
     <div class="col-sm-8 offset-sm-2">
         <br />
-        <h3 class="display-5 text-center">Student Compund Details</h3>
+        <h3 class="display-5 text-center">Student Compound Details</h3>
         @if ($errors->any())
         <div class="alert alert-danger">
             <ul>
